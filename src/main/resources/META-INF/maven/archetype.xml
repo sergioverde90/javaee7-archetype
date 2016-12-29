@@ -1,0 +1,6 @@
+<archetype>
+  <id>javaee7-basic-archetype</id>
+  <sources>
+    <source>src/main/java/JAXRSConfiguration.java</source>
+  </sources>
+</archetype>
