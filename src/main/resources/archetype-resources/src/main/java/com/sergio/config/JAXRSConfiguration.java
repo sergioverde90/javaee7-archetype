@@ -1,13 +1,14 @@
-package $com.sergio.archetypes.javaee7_basic_archetype;
+package com.sergio.config;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
 /**
- * Hello world!
+ * Entry point for all JAX-RS resources.
+ * 
+ * @author Sergio Verde
  *
+ * @see javax.ws.rs.ApplicationPath
  */
-public class JAXRSConfiguration 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-}
+@ApplicationPath("/resources")
+public class JAXRSConfiguration extends Application{}
